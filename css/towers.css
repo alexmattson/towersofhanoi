@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+  font-size: 36px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: crimson;
+  font-size: 36px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.board {
+  width: 100%;
+}
+
+.towers {
+  margin: 0 auto;
+  width: 400px;
+  border-right: solid 5px #000;
+}
+
+.filler {
+  position: absolute;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+
+  position: relative;
+  width: 100px;
+  height: 110px;
+  border-bottom: solid 5px #000;
+  float: left;
+
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+ul:last-of-type {
+  margin-right: 0;
+}
+
+ul:hover {
+  cursor: pointer;
+}
+
+li {
+  height: 20px;
+  margin: 10px auto;
+  background: #000;
+  border-radius: 5px;
+}
+
+.ring1 {
+  width: 40px;
+}
+.ring2 {
+  width: 60px;
+}
+.ring3 {
+  width: 80px;
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
